@@ -10,7 +10,7 @@
   "options": { 
     "stream": {
         "streams": ["pipe:///share/snapfifo/librespot?name=SpotifyConnect&sampleformat=44100:16:2", "pipe:///share/snapfifo/mopidy?name=Mopidy&sampleformat=44100:16:2", "tcp://0.0.0.0?port=4953&name=snapbroadcast"],
-        "buffer": "1000",
+        "buffer": 0,
         "codec": "flac",
         "send_to_muted": "false",
         "sampleformat": "48000:16:2"
